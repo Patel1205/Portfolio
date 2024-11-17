@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  
+  /* Landing Page Styles */
+  #landing {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #landing h1 {
+    font-size: 3.5rem;
+    color: #212121;
+    margin-bottom: 20px;
+  }
+  
+  #landing p {
+    font-size: 1.5rem;
+    color: #424242;
+    margin-bottom: 30px;
+  }
+  
+  #landing .btn {
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #landing .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .text-center h2 {
+    font-size: 2.5rem;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  
+  .text-center h4 {
+    font-size: 1.6rem;
+    color: #444;
+  }
+  
+  .text-center ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .text-center ul li {
+    font-size: 1.2rem;
+    color: #666;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .text-center ul li:before {
+    content: '\2022';
+    color: #ffb300;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Image Styles */
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Portfolio Sections */
+  #amazonPortfolio, #softwarePortfolio {
+    display: none;
+  }
+  
+  #amazonPortfolio .section,
+  #softwarePortfolio .section {
+    background-color: #f7f7f7;
+  }
+  
+  #amazonPortfolio h2, #softwarePortfolio h2 {
+    color: #fff;
+  }
+  
+  /* Button Styles for Portfolio Section */
+  .btn-primary {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1565c0;
+    border-color: #1565c0;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .btn-success:hover {
+    background-color: #388e3c;
+    border-color: #388e3c;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 15px 0;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #212121;
+    color: #fff;
+  }
+  
+  #contact .btn-light {
+    background-color: #ffffff;
+    color: #212121;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+  }
+  
+  #contact .btn-light:hover {
+    background-color: #ffb300;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #landing h1 {
+      font-size: 2.5rem;
+    }
+  
+    #landing p {
+      font-size: 1.2rem;
+    }
+  
+    .section {
+      padding: 40px 0;
+    }
+  
+    .text-center h2 {
+      font-size: 2rem;
+    }
+  
+    .text-center h4 {
+      font-size: 1.4rem;
+    }
+  
+    .text-center ul li {
+      font-size: 1.1rem;
+    }
+  
+    .btn-lg {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #landing h1 {
+      font-size: 2rem;
+    }
+  
+    #landing p {
+      font-size: 1.1rem;
+    }
+  
+    .text-center h2 {
+      font-size: 1.8rem;
+    }
+  
+    .text-center h4 {
+      font-size: 1.3rem;
+    }
+  
+    .text-center ul li {
+      font-size: 1rem;
+    }
+  }
+  
